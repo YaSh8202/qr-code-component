@@ -1,0 +1,39 @@
+body{
+  background-color: hsl(220, 15%, 55%);
+  font-family: 'Outfit', sans-serif;
+}
+
+
+.card{
+  position: relative;
+  top: 7rem;
+  display: block;
+  width: 75%;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 12px;
+}
+@media only screen and (min-width: 700px)
+{
+  .card{
+    width: 18%;
+  }
+}
+
+.qr-img{
+  height: 240px;
+  width:100%;  
+  display: block;
+  border-radius: 10px;
+}
+
+.text{
+  text-align: center;
+}
+
+
+#qr-text{
+  color:hsl(212, 45%, 89%);
+}
